@@ -17,5 +17,7 @@ namespace Catalin_Teburzuca_lab2.Data
         public DbSet<Catalin_Teburzuca_lab2.Models.Book> Book { get; set; } = default!;
 
         public DbSet<Catalin_Teburzuca_lab2.Models.Publisher>? Publisher { get; set; }
+
+        public DbSet<Catalin_Teburzuca_lab2.Models.Category>? Category { get; set; }
     }
 }
